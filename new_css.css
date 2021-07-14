@@ -1,0 +1,18 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+.wrapper{
+
+  display: flex;
+  flex-direction: row;
+}
+figure{
+  width: 300px;
+}
+img{
+  width: 100%;
+  object-fit: cover;
+}
