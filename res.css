@@ -1,0 +1,41 @@
+
+.wrapper >div {
+	border: 1px solid green;
+	height: 150px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.con {
+	background: pink;
+	height: 100px;
+	width: 80%;
+	margin: auto;
+	position: relative;
+	top: 25px;
+	color:pink;
+}
+
+@media screen and (max-width: 768px){
+	.s{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+	.m{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1201px){
+	.l{
+		width: 33.33%;
+	}
+}
